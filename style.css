@@ -1,0 +1,138 @@
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+nav {
+    margin-right: 10px; 
+    flex: 1; 
+    text-align: center; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px; 
+}
+
+
+/* Hero Section */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+/* Banner Section */
+.banner img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; 
+}
+
+/* Campus Section */
+.campus {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.campus .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.campus-call {
+    flex: 0 0 33.33%;
+    padding: 10px;
+}
+
+/* Facilities Section */
+.facilities {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.facilities .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.facility-call {
+    flex: 0 0 33.33%;
+    padding: 10px;
+}
+
+/* Testimonials Section */
+
+.testimonials {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonials h1 {
+    margin-bottom: 20px;
+}
+
+.testimonials .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.testimonial-call {
+    flex: 0 0 45%;
+    padding: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.testimonial-call img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.icons {
+    margin-bottom: 20px;
+}
+
+.icons i {
+    margin: 0 10px;
+    font-size: 20px;
+}
